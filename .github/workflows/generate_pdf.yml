@@ -1,0 +1,23 @@
+ name: Generate PDF
+
+ on:
+   push:
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions-for-kicad/setup-kicad@main
+        with:
+          version: '7.0'
+      - name: Export file
+        uses: actions-for-kicad/generate-kicad-files@v1.0
+        with:
+          file: './apple2.kicad_sch'
+          type: 'schematic_pdf'
+      - name: Upload
+        uses: actions/upload-artifact@v3
+        with:
+            name: 'apple2.pdf'
+            path: './apple2.pdf'
