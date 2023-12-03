@@ -1,5 +1,37 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 7d36cf7e-8de7-4392-bd63-1a9c9576ca74)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (title_block
+    (title "Apple II Clone")
+    (rev "1")
+    (comment 1 "Main Logic Board B20-0044 Rev 01")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 24.13 20.32) (size 36.83 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 044dae79-9654-4b7e-a2e0-c9eff8617b08)
+    (property "Sheetname" "Power Plug" (at 24.13 19.6084 0) (show_name)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power_plug.kicad_sch" (at 24.13 41.2246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "apple2"
+        (path "/7d36cf7e-8de7-4392-bd63-1a9c9576ca74" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
