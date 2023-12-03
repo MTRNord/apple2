@@ -334,6 +334,10 @@
     [
       "6aa140a2-c793-45c1-950a-6540c70be24c",
       "Video Out"
+    ],
+    [
+      "093f0287-d836-4f48-9938-089bd003a230",
+      "Reset Circuit"
     ]
   ],
   "text_variables": {}
