@@ -330,6 +330,10 @@
     [
       "044dae79-9654-4b7e-a2e0-c9eff8617b08",
       "Power Plug"
+    ],
+    [
+      "6aa140a2-c793-45c1-950a-6540c70be24c",
+      "Video Out"
     ]
   ],
   "text_variables": {}

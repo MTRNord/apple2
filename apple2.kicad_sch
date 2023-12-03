@@ -14,19 +14,40 @@
   )
 
 
-  (sheet (at 24.13 20.32) (size 36.83 20.32) (fields_autoplaced)
+  (sheet (at 13.97 15.875) (size 20.32 8.255) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 044dae79-9654-4b7e-a2e0-c9eff8617b08)
-    (property "Sheetname" "Power Plug" (at 24.13 19.6084 0) (show_name)
+    (property "Sheetname" "Power Plug" (at 13.97 15.1634 0) (show_name)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "power_plug.kicad_sch" (at 24.13 41.2246 0)
+    (property "Sheetfile" "power_plug.kicad_sch" (at 13.97 24.7146 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
       (project "apple2"
         (path "/7d36cf7e-8de7-4392-bd63-1a9c9576ca74" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 180.975 24.765) (size 64.77 24.765) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6aa140a2-c793-45c1-950a-6540c70be24c)
+    (property "Sheetname" "Video Out" (at 180.975 24.0534 0) (show_name)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "video_out.kicad_sch" (at 180.975 50.1146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "Composite Sync" input (at 180.975 29.21 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 6d85bcb2-2236-4a92-8506-e50186d6374d)
+    )
+    (instances
+      (project "apple2"
+        (path "/7d36cf7e-8de7-4392-bd63-1a9c9576ca74" (page "3"))
       )
     )
   )
