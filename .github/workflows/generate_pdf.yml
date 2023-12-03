@@ -1,6 +1,6 @@
- name: Generate PDF
+name: Generate PDF
 
- on:
+on:
    push:
 
 jobs:
